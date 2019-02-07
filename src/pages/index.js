@@ -2,18 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Trujamal" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Visual Exploration</h1>
-    <p>Pushing the boundareis of photography by taking abstract images</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="Onboarding">
+      <div className="OnboardingGroup">
+        <h1>creative</h1>
+        <h2>Shooting eye-catching moments for fun</h2>
+        <p>Every image is a story in frame. Discover my most popular images and uncover the stories behind them.</p>
+        <Link to="/page-2/">Discover my work</Link>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
