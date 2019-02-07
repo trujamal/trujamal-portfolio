@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather');
+
+
 .Header {
 	position: fixed;
 	width: 100%;
 	padding: 50px 0;
 	z-index: 100;
+  	font-family: 'Lato', sans-serif;
 
 }
 
 .HeaderGroup {
+	font-family: 'Lato', sans-serif;
 	max-width: 800px;
 	margin: 0 auto;
 	display: grid;
@@ -16,8 +21,17 @@
 }
 
 .Header a {
+	font-family: 'Lato', sans-serif;
 	color:white;
 	font-weight: 700;
+	transition: 1s cubic-bezier(0.1,0.8,0.1,1);
+	-webkit-font-smoothing: antialiased;
+
+}
+
+.Header a:hover {
+	-webkit-font-smoothing: antialiased;
+	transform: translateY(-5px);
 
 }
 
@@ -32,6 +46,12 @@
 	outline: none;
 }
 
+.Header button:hover {
+	background: white;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.25);
+	transform: translateY(-3px);
+}
+
 @media (max-width: 640px) {
 	.Header {
 		padding: 15px 0;
@@ -39,5 +59,9 @@
 	
 	.HeaderGroup {
 		grid-template-columns: repeat(4,auto);
+	}
+
+	.Header a:nth-child(4) {
+		display: none;
 	}
 }
