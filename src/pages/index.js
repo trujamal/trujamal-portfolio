@@ -9,8 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Trujamal" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Visual Exploration</h1>
-    <p>Pushing the boundareis of photography</p>
-    <p>by taking abstract images</p>
+    <p>Pushing the boundareis of photography by taking abstract images</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
