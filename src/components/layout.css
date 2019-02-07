@@ -16,7 +16,7 @@ a {
 }
 
 .Onboarding {
-  background: url('../images/Landscape01.jpg');
+  background: url('../images/Landscape04.jpg');
   height: 920px;
   background-size: cover;
   background-position: center;
@@ -58,9 +58,23 @@ a {
   font-size:17px;
   font-weight: 600;
   color:white;
-  text-transform: uppercase;
-  background: #2D7A94;
+  /*text-transform: uppercase;*/
+  background: #000;
   padding: 9px 20px;
   border: 1px solid rgba(255,255,255, 0.25);
   border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  .OnboardingGroup {
+    padding: 100px 20px;
+  }
+
+  .Onboarding h1{
+    font-size: 40px;
+  }
+
+  .Onboarding p {
+    font-size: 24px;
+  }
 }
