@@ -7,8 +7,6 @@
 <h1 align="center">
   Trujamal Portfolio
 </h1>
-[![travis-ci Build Status](https://travis-ci.com/trujamal/trujamal_portfolio.svg?branch=master)](https://david-dm.org/trujamal/trujamal_portfolio#info=devDependencies)
-[![devDependency Status](https://david-dm.org/trujamal/trujamal_portfolio.svg)](https://david-dm.org/trujamal/trujamal_portfolio#info=devDependencies)
 
 Hello and welcome to my Portfolio, to get to know me a little here is a short summary about what I do, and what this portfolio means to me.
 
