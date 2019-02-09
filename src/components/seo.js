@@ -20,7 +20,12 @@ function SEO({ description, lang, meta, keywords, title }) {
             meta={[
               {
                 name: `description`,
-                content: metaDescription,
+                content: data.site.siteMetadata.description,
+              },
+              {
+                name: `keywords`,
+                content: data.site.siteMetadata.keywords
+
               },
               {
                 property: `og:title`,
@@ -90,6 +95,7 @@ const detailsQuery = graphql`
         title
         description
         author
+        keywords
       }
     }
   }

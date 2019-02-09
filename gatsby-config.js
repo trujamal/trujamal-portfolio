@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `UX and UI Hub`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Trujamal`,
+    description: `Hello there I'm a multidisciplinary designer and full stack developer, that's currently working on crafting responsive web user interfaces, and mobile applications.`,
+    author: `@trujamal`,
+    keywords: `Jamal, jamal rasool, trujamal, veve, veveusa,veve-llc, Jamal K Rasool, portfoliom sketch, iOS Developer, Full Stack developer, web developer, professional, jamal, jamal rasool`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,6 +27,13 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
+    },
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: 's907tzls2pdt',
+        accessToken: '337570188abd667a42a057300207e42a757f7f0c94a1a6063e82b6e60138804a'
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline

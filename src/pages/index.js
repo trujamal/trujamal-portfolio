@@ -32,7 +32,7 @@ const SectionCellGroup = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Trujamal" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="Onboarding">
       <div className="OnboardingGroup">
         <h1>creative</h1>
