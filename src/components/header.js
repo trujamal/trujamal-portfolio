@@ -3,14 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import './Header.css'
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
 class Header extends React.Component {
 	constructor(props) {
 		super(props)
@@ -45,6 +37,14 @@ class Header extends React.Component {
 		 	</div>
  		)
 	}
+}
+
+Header.propTypes = {
+  siteTitle: PropTypes.string,
+}
+
+Header.defaultProps = {
+  siteTitle: ``,
 }
 
 export default Header
