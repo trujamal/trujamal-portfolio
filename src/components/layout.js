@@ -2,8 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+import Header from "../components/header"
 import "./layout.css"
+import Footer from "../components/Footer"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -16,12 +17,24 @@ const Layout = ({ children }) => (
             keywords
           }
         }
+        allContentfulLink(sort: {fields: [createdAt], order: ASC}) {
+          edges {
+            node{
+              title
+              url
+              createdAt
+            }
+          }
+        }
       }
     `}
     render={data => (
       <>
         <Header />
         <main>{children}</main>
+        <Footer data={data}>
+          © 2019 <a href="mailto:me@trujamal.com">Jamal Rasool</a>
+        </Footer>   
       </>
     )}
   />
