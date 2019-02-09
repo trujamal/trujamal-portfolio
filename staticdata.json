@@ -1,1 +1,52 @@
-staticdata.json
+{
+    "cells": [
+        {
+            "title": "Intro to React",
+            "image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+        },
+        {
+			"title": "Intro to Portfolio",
+			"image": "https://cl.ly/75f3e67f1118/what-the-hell-is-going-on.jpg"
+		},
+		{
+			"title": "Intro to Life",
+			"image": "https://cdn.dribbble.com/users/40433/screenshots/5924249/5_2x.png"
+		},
+		{
+			"title": "Intro to Destruction",
+			"image": "https://cdn.dribbble.com/users/757683/screenshots/5979587/ic_03_2x.jpg"
+		},
+        {
+			"title": "Intro to Rebirth",
+			"image": "https://cdn.dribbble.com/users/702789/videos/12393/______________2019-01-11___16.15.54.mp4"
+		},
+		{
+			"title": "Intro to the deal",
+			"image": "https://cdn.dribbble.com/users/551602/screenshots/5984011/currency-dribbble_2x.png"
+		},
+		{
+			"title": "Intro to Scam",
+			"image": "https://cdn.dribbble.com/users/844597/screenshots/5986183/fog_texture_2x.png"
+		},
+		{
+			"title": "Intro to VBucks",
+			"image": "https://cdn.dribbble.com/users/35877/screenshots/5985062/bonafide-dribbble.jpg"
+		},
+		{
+			"title": "Intro to Vengang",
+			"image": "https://cdn.dribbble.com/users/995051/screenshots/5984060/spectrum_2-01.png"
+		},
+		{
+			"title": "Intro to the Cottage",
+			"image": "https://photo-cdn.icons8.com/assets/previews/915/992ac4ac-b30d-46aa-b9b6-476e6bb31eee1x.jpg"
+		},
+		{
+			"title": "Hitch hickers guide to boolin",
+			"image": "https://images.pexels.com/photos/1884306/pexels-photo-1884306.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+		},
+		{
+			"title": "Intro to lorem ipisum",
+			"image": "https://images.pexels.com/photos/944761/pexels-photo-944761.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+		}
+    ]
+}
