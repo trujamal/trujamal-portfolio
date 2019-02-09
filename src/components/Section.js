@@ -6,6 +6,7 @@ const SectionGroup = styled.div`
 background:url(${props => props.image});
 height: 50vh;
 background-size: cover;
+background-repeat: no-repeat
 display: grid;
 grid-template-rows: 300px auto;
 grid-gap: 20px;
