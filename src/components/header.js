@@ -8,11 +8,12 @@ class Header extends React.Component {
 		return(
 		 	<div className="Header">
 		 		<div className="HeaderGroup">
-		 			<Link to="/">Trujamal</Link>
-		 			<Link to="/page-2">Work</Link>
-		 			<Link to="/About">About</Link>
-		 			<Link to="/Contact">Contact</Link>
-		 			<Link to="/Portfolio">Porfolio</Link>
+		 			<h1 className="titleOfMe">Jamal Rasool</h1>
+		 			<div className="Group">
+			 			<Link to="/">Design</Link>
+			 			<Link to="/Photos">Photos</Link>
+			 			<Link to="/About">About</Link>
+		 			</div>
 		 		</div>
 		 	</div>
  		)
