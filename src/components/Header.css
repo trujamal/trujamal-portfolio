@@ -10,12 +10,6 @@
 
 }
 
-.HeaderScrolled {
-	background: black;
-	padding: 15px 0;
-	backdrop-filter: blur(20px);
-}
-
 .HeaderGroup {
 	font-family: 'Lato', sans-serif;
 	max-width: 800px;
