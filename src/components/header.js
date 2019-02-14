@@ -29,7 +29,6 @@ const Social = styled.div`
 `
 
 const Icons = styled.a`
-	background-image: url(${props => props.image});
 	margin-left: 16px;
 	padding: 2px;
     display: block;
@@ -38,6 +37,12 @@ const Icons = styled.a`
     position: relative;
     transition: all 0.3s ease;
     text-decoration: none;
+`
+
+const IconsImage = styled.img`
+	height:20px;
+	width:20px;
+	content: url(${props => props.image});
 `
 
 
@@ -53,8 +58,9 @@ class Header extends React.Component {
 			 			<StyledLink to="/About">About</StyledLink>
 		 			</div>
 		 			<Social>
-		 				<Icons href="//www.instagram.com/trujamal/" image={require('//img.icons8.com/ios/50/000000/instagram-new.png')}></Icons>
-		 				<Icons href="//github.com/trujamal" image={require('../images/Landscape01.jpg')}></Icons>
+		 				<Icons href="//www.instagram.com/trujamal/"><IconsImage image={require('../images/icons/icons8-instagram.svg')}/></Icons>
+		 				<Icons href="//github.com/trujamal"><IconsImage image={require('../images/icons/icons8-github.svg')}/></Icons>
+		 				<Icons href="//soundcloud.com/trujamal"><IconsImage image={require('../images/icons/icons8-soundcloud.svg')}/></Icons>
 		 			</Social>
 		 		</div>
 		 	</div>
