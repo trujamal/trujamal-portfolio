@@ -35,13 +35,11 @@ const Icons = styled.a`
     float: right;
     color: #1A1B1C;
     position: relative;
-    transition: all 0.3s ease;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     text-decoration: none;
 
-    a:hover {
-		background: white;
-		box-shadow: 0px 10px 20px rgba(0,0,0,0.25);
-		transform: translateY(-3px);
+    &:hover {
+        transform: translateY(-3px);
     }
 `
 

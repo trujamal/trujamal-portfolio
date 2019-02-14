@@ -224,7 +224,7 @@ const Footer = () => (
                     <SayingHello href="mailto:me@trujamal.com?subject=Hello 🤙">
                     Say Hello <Sayingspan>🤙</Sayingspan>
                     </SayingHello>
-                    <SayingHelloSubText>For work enquires head over to <SayingHelloSubLink href="https://veveusa.com">Veve Labs</SayingHelloSubLink>.</SayingHelloSubText>
+                    <SayingHelloSubText>For work enquires head over to <SayingHelloSubLink href="https://veveusa.com"> Veve.</SayingHelloSubLink>.</SayingHelloSubText>
                 </Saying>
             	<LinkGroup>© 2019 Jamal Rasool<LinkGroupReference class="top" href="#top">Top</LinkGroupReference></LinkGroup>
             </FooterContainer>

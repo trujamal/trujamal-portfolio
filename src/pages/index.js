@@ -8,6 +8,8 @@ import Wave from '../components/wave'
 import staticdata from '../../staticdata.json'
 import Cell from '../components/Cell'
 import styled from 'styled-components'
+import HomepageBanner from '../components/HomepageBanner'
+import OnboardingComp from '../components/Onboarding'
 
 const SectionCaption = styled.p`
   font-weight: 600;
@@ -33,15 +35,7 @@ const SectionCellGroup = styled.div`
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <div className="Onboarding">
-      <div className="OnboardingGroup">
-        <h1>creative</h1>
-        <h2>Shooting eye-catching<br />moments for fun</h2>
-        <p>Every image is a story in frame. Discover my most popular images and uncover the stories behind them.</p>
-        <Link to="/page-2/">Discover my work</Link>
-        <Wave/>
-      </div>
-    </div>
+    <HomepageBanner />
     <div className="Cards">
       <h2>Selected Projects</h2>
       <p>Hover over the cards to learn more about projects</p>

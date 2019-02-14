@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Trujamal`,
+    title: `trujamal`,
     description: `Hello there I'm a multidisciplinary designer and full stack developer, that's currently working on crafting responsive web user interfaces, and mobile applications.`,
     author: `@trujamal`,
     keywords: `Jamal, jamal rasool, trujamal, veve, veveusa,veve-llc, Jamal K Rasool, portfoliom sketch, iOS Developer, Full Stack developer, web developer, professional, jamal, jamal rasool`
