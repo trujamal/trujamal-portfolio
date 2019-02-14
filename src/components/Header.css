@@ -32,17 +32,11 @@
     text-rendering: optimizeLegibility;
 }
 
-.Group Link {
-	color: #1A1B1C;
-    position: relative;
-    margin-right: 16px;
-}
 
 .titleOfMe {
 	font-family: 'Lato', sans-serif;
 	position: absolute;
 	left: 50%;
-	top: 52px;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	width: 20%;

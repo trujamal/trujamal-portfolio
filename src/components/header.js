@@ -2,6 +2,44 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import './Header.css'
+import styled from 'styled-components'
+
+const StyledLink = styled(Link)`
+	font-family: 'Lato', sans-serif;
+	color: #1A1B1C;
+    position: relative;
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+`
+
+const Social = styled.div`
+    float: right;
+    height: 24px;
+    color: #1A1B1C;
+    background: #FFF;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    -moz-osx-font-smoothing:
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+`
+
+const Icons = styled.a`
+	background-image: url(${props => props.image});
+	margin-left: 16px;
+	padding: 2px;
+    display: block;
+    float: right;
+    color: #1A1B1C;
+    position: relative;
+    transition: all 0.3s ease;
+    text-decoration: none;
+`
+
 
 class Header extends React.Component {
 	render() {
@@ -10,10 +48,14 @@ class Header extends React.Component {
 		 		<div className="HeaderGroup">
 		 			<h1 className="titleOfMe">Jamal Rasool</h1>
 		 			<div className="Group">
-			 			<Link to="/">Design</Link>
-			 			<Link to="/Photos">Photos</Link>
-			 			<Link to="/About">About</Link>
+			 			<StyledLink to="/">Design</StyledLink>
+			 			<StyledLink to="/Photos">Photos</StyledLink>
+			 			<StyledLink to="/About">About</StyledLink>
 		 			</div>
+		 			<Social>
+		 				<Icons href="//www.instagram.com/trujamal/" image={require('//img.icons8.com/ios/50/000000/instagram-new.png')}></Icons>
+		 				<Icons href="//github.com/trujamal" image={require('../images/Landscape01.jpg')}></Icons>
+		 			</Social>
 		 		</div>
 		 	</div>
  		)
