@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 
 const PhotosPage = () => (
 	<Layout>
+    <SEO title="Photography" keywords={[`gatsby`, `application`, `react`]} />
 
 	</Layout>
 )

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather');
-
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');	
 
 .Header {
 	position: absolute;
@@ -29,7 +28,7 @@
 
 .Header a {
 	font-family: 'Lato', sans-serif;
-	color:white;
+	color:Black;
 	font-weight: 700;
 	transition: 1s cubic-bezier(0.1,0.8,0.1,1);
 	-webkit-font-smoothing: antialiased;

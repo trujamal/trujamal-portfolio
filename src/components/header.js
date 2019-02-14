@@ -4,32 +4,12 @@ import React from "react"
 import './Header.css'
 
 class Header extends React.Component {
-	constructor(props) {
-		super(props)
-		this.state = {
-			hasScrolled: false
-		}
-	}
-
-	componentDidMount() {
-		window.addEventListener('scroll',this.handleScroll)
-	}
-
-	handleScroll = (event) => {
-		const scrollTop = window.pageYOffset
-
-		if(scrollTop > 50) {
-			this.setState({hasScrolled: true})
-		}else{
-			this.setState({hasScrolled: false})
-		}
-	}
 	render() {
 		return(
-		 	<div className={this.state.hasScrolled ? 'Header HeaderScrollled' : 'Header'}>
+		 	<div className="Header">
 		 		<div className="HeaderGroup">
 		 			<Link to="/">Trujamal</Link>
-		 			<Link to="/Work">Work</Link>
+		 			<Link to="/page-2">Work</Link>
 		 			<Link to="/About">About</Link>
 		 			<Link to="/Contact">Contact</Link>
 		 			<Link to="/Portfolio">Porfolio</Link>
@@ -48,3 +28,18 @@ Header.defaultProps = {
 }
 
 export default Header
+
+// <header>
+// 		<div class="container group">
+// 			<h1 class="titleheader">Carl Spencer</h1>
+// 			<nav class="group">
+// 				<a class="active" href="index.html">Design</a>
+// 				<a href="photos.html">Photos</a>
+// 				<a href="about.html">About</a>
+// 			</nav>
+// 			<div class="social">
+// 				<a title="Dribbble" target="_blank" href="http://dribbble.com/CarlJSpencer"><img src="images/dribbble.svg" class="svg-icon"></a>
+// 				<a title="Instagram" target="_blank" href="http://instagram.com/carljspencer"><img src="images/instagram.svg" class="svg-icon"></a>
+// 			</div>
+// 		</div>
+// </header>
