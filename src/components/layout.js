@@ -32,8 +32,7 @@ const Layout = ({ children }) => (
       <>
         <Header />
         <main>{children}</main>
-        <Footer data={data}>
-          © 2019 <a href="mailto:me@trujamal.com">Jamal Rasool</a>
+        <Footer>
         </Footer>   
       </>
     )}
