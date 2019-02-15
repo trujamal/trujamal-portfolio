@@ -15,6 +15,87 @@ a {
   font-weight: 600;
 }
 
+.Onboarding {
+  background: url('../images/Landscape04.jpg');
+  height: 920px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.OnboardingGroup {
+  margin:0 auto;
+  max-width: 500px;
+  padding: 150px 50px;
+  text-align: center;
+}
+
+.Onboarding h1 {
+  margin: 0 auto;
+  font-family: 'SF Pro Display', sans-serif;
+  color:white;
+  -webkit-font-smoothing: antialiased;
+  font-size: 100px;
+  line-height: 1.2;
+  animation: OnBoardingAnimation;
+  animation-duration: 2s;
+  animation-delay: 0.1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2,0.8,0.2,1);
+}
+
+.Onboarding h2 {
+  font-family: 'Lato';
+  color: #1F1F1F;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  animation: OnBoardingAnimation 3s forwards cubic-bezier(0.2,0.8,0.2,1);
+  opacity: 0;
+}
+
+.Onboarding p {
+  color:rgba(255,255,255,0.8);
+  font-size: 26px;
+  line-height: 1.5;
+  animation: OnBoardingAnimation 3s 0.2s forwards cubic-bezier(0.2,0.8,0.2,1);
+  opacity: 0;
+}
+
+.Onboarding a {
+  font-size:17px;
+  font-weight: 600;
+  color:white;
+  /*text-transform: uppercase;*/
+  background: #000;
+  padding: 9px 20px;
+  border: 1px solid rgba(255,255,255, 0.25);
+  border-radius: 20px;
+  transition: 0.8s cubic-bezier(0.2,0.8,0.2,1);
+}
+
+.Onboarding a:hover {
+  background: white;
+  color:black;
+
+}
+
+@media (max-width: 640px) {
+  .OnboardingGroup {
+    padding: 100px 20px;
+  }
+
+  .Onboarding h1{
+    font-size: 40px;
+  }
+
+  .Onboarding p {
+    font-size: 24px;
+  }
+}
+
 @keyframes OnBoardingAnimation {
   0% {
     opacity: 0;

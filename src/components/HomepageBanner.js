@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const HpbGroup = styled.div`
 	padding: 320px 80px 240px;
-	width:100%;
 	display: block;
 	color:FFFF;
 	@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');	
