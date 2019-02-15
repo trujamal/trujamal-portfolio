@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Card from '../components/Card';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Section from '../components/Section'
@@ -23,7 +22,7 @@ const SectionCellGroup = styled.div`
   max-width: 800px;
   margin: 0 auto 100px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 20px;
   padding: 0 20px;
 

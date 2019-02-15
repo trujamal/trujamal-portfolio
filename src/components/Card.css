@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');	
+
 .Card {
-	width: 315px;
-	height: 420px;
+	max-width: 800px;
+	width: 100%;
+	height: 100%;
 	position: relative;
 	overflow: hidden;
-	border-radius: 20px;
 	box-shadow: 0 20px 40px rgba(0,0,0,0.25);
 	display: grid;
 	grid-template-rows: 1fr 1fr;
 	transition: 0.8s cubic-bezier(0.2,0.8,0.2,1);
+	font-family: 'Lato', sans-serif;
+
 }
 
 .Card:hover {
@@ -33,6 +37,7 @@
 	font-size: 30px;
 	margin: 20px 0 0 20px;
 	width: 190px;
+	align-self: end;
 }
 
 .Card p {

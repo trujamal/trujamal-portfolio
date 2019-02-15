@@ -1,6 +1,7 @@
 import React from 'react'
-
-
+import './Card.css'
+import Card from '../components/CardsComponent';
+ 
 const CardsCompoenent = () => (
 	<div className="Cards">
 	      <h2>Selected Projects</h2>
@@ -23,7 +24,7 @@ const CardsCompoenent = () => (
 	              image={require('../images/Landscape03.jpg')}
 	        />
 	      </div>
-	    </div>
+	</div>
 	)
 
 export default CardsCompoenent
