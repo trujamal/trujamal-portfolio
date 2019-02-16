@@ -16,18 +16,23 @@ a {
 }
 
 .Onboarding {
-  background: url('https://pro2-bar-s3-cdn-cf5.myportfolio.com/f79129cbd37aca32c16069f623cb31e6/604b943d-fb3e-4381-9853-c6e1224812ea_rw_3840.jpg?h=e07914674674964013716c6fa3cc6cda');
-  height: 920px;
+  background: url('https://images.unsplash.com/photo-1550029402-226115b7c579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1301&q=80');
+  height: auto;
   background-size: cover;
-  background-position: center;
+  overflow: hidden;
+  background-position: top;
   position: relative;
+  margin: -1px auto;
+  background-clip: content-box;
 }
 
 .OnboardingGroup {
   margin:0 auto;
   max-width: 500px;
-  padding: 150px 50px;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   text-align: center;
+
 }
 
 .Onboarding h1 {

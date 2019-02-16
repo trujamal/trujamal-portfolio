@@ -18,7 +18,7 @@ const OnboardingComp = () => (
 	        <h1>creative</h1>
 	        <h2>Shooting eye-catching<br />moments for fun</h2>
 	        <p>Every image is a story in frame. Discover my most popular images and uncover the stories behind them.</p>
-	        <Link to="/page-2/">Discover my work</Link>
+	        <Link to="/Photos">Discover my work</Link>
 	        <Wave/>
 	      </div>
 	</div>

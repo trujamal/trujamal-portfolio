@@ -12,20 +12,20 @@ import OnboardingComp from '../components/Onboarding'
 const SectionCaption = styled.p`
   @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');  
   font-family: Lato;
-  font-weight: 600;
-  font-size: 18px;
-  text-transform: uppercase;
-  color:#FF6541;
+  font-weight: 700;
+  font-size: 48px;
+  color: #141414;
+  padding-top: 10vh;
   text-align: center;
 `
 
 const SectionCellGroup = styled.div`
+  padding-top: 15vh;
   max-width: 1200px;
   column-count: 3;
   column-gap: 20px;
   padding: 20px;
   margin: 0 auto 5vh;
-
   @media (max-width: 800px) {
     column-count: 2;
   }
@@ -37,7 +37,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HomepageBanner />
     <OnboardingComp />
-    <SectionCaption>A couple of my works.</SectionCaption>
+    <SectionCaption>Gallery</SectionCaption>
     <SectionCellGroup>
     {staticdata.cells.map(cell => (
             <Cell 
