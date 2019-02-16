@@ -16,7 +16,7 @@ a {
 }
 
 .Onboarding {
-  background: url('../images/Landscape04.jpg');
+  background: url('https://pro2-bar-s3-cdn-cf5.myportfolio.com/f79129cbd37aca32c16069f623cb31e6/604b943d-fb3e-4381-9853-c6e1224812ea_rw_3840.jpg?h=e07914674674964013716c6fa3cc6cda');
   height: 920px;
   background-size: cover;
   background-position: center;
@@ -47,7 +47,7 @@ a {
 
 .Onboarding h2 {
   font-family: 'Lato';
-  color: #1F1F1F;
+  color: white;
   font-weight: 800;
   font-style: bold;
   font-size: 36px;
