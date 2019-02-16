@@ -3,11 +3,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Wave from '../components/wave'
-import staticdata from '../../staticdata.json'
+import staticdata from '../../json_data/staticdata.json'
 import Cell from '../components/Cell'
 import styled from 'styled-components'
 import HomepageBanner from '../components/HomepageBanner'
 import OnboardingComp from '../components/Onboarding'
+import BrandsComponent from '../components/BrandsComponent'
 
 const SectionCaption = styled.p`
   @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');  
@@ -45,6 +46,7 @@ const IndexPage = () => (
               image={cell.image}/>
           ))}
     </SectionCellGroup>
+    <BrandsComponent />
   </Layout>
 )
 

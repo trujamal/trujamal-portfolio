@@ -16,8 +16,6 @@ const CellImage = styled.img`
 const CellTitle = styled.div`
 	color: black;
 	font-size: 24px;
-	// border-bottom: 1px solid rgba(0,0,0,0.1);
-	// <CellTitle>{props.title}</CellTitle>
 	padding: 30px 0;
 `
 
