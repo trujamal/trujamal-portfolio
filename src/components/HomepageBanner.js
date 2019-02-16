@@ -67,12 +67,12 @@ const BannerText = styled.div`
 `
 
 
-const HomepageBanner = () => (
+const HomepageBanner = props => (
 	<HpbGroup>
 		<HpbContainer>
 			<BannerText>
-			<h2>Developer for mobile, web and design products.</h2>
-			<p>Co-founder and pusher of pixels at <a href="https://veveusa.com/">Veve</a>, since 2015</p>
+			<h2>{props.title}</h2>
+			<p>{props.text}</p>
 			</BannerText>
 		</HpbContainer>
 	</HpbGroup>
