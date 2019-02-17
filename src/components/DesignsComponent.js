@@ -27,14 +27,16 @@ const DesignCard = styled.div`
 
 `
 
-const DesignCardImage = styled.img`
+const DesignCardImage = styled.span`
     width: 580px;
     height: 435px;
     object-fit: cover;
     display: block;
     border: 1px solid #fff;
     content: url(${props => props.image});
+
 `
+
 
 const DesignCardInfo = styled.div`
     padding: 24px 0 0;

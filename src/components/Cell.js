@@ -5,7 +5,7 @@ const CellGroup = styled.div`
 
 `
 
-const CellImage = styled.img`
+const CellImage = styled.span`
     width: 100%;
     height: auto;
     padding-bottom: 24px;

@@ -59,7 +59,7 @@ const BrandCardsGroup = styled.div`
     margin-bottom: 24px;
 `
 
-const BrandCard = styled.img`
+const BrandCard = styled.span`
 	-webkit-box-shadow: 0px 8px 16px -16px rgba(26,27,28, .2);
 	-moz-box-shadow: 0px 8px 16px -16px rgba(26,27,28, .2);
 	box-shadow: 0 8px 16px -16px rgba(26,27,28, .2);

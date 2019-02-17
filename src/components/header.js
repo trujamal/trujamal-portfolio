@@ -43,7 +43,7 @@ const Icons = styled.a`
     }
 `
 
-const IconsImage = styled.img`
+const IconsImage = styled.span`
 	height:25px;
 	width:25px;
 	content: url(${props => props.image});
