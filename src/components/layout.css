@@ -22,6 +22,33 @@ a {
   font-weight: 600;
 }
 
+a, a:visited, a:active {
+  color: #1A1B1C;
+  position: relative
+}
+a:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: #1A1B1C;
+  visibility: hidden;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+a:hover:before {
+  visibility: visible;
+  width: 100%
+}
+
+.active:before {
+  width: 100%;
+  background-color: rgba(26,27,28,.2);
+  visibility: visible
+}
+
 .Onboarding {
   background: url('https://images.unsplash.com/photo-1550029402-226115b7c579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1301&q=80');
   height: auto;

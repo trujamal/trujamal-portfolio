@@ -70,16 +70,19 @@ const LinkGroupReference = styled.a`
 const SayingHello = styled.a`
     @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');	
     font-weight: 700;
-    color: #F5FFFF;
     font-size: 32px;
     font-family: 'Lato', sans-serif;
     font-size: 32px;
     line-height: 40px;
-    color: #fff;
     font-weight: bold;
     margin-bottom: 16px;
     display: inline-block;
     cursor:grab;
+    color: white !important;
+
+    :first {
+      color: white
+    }
 
     a:hover {
         cursor:grabbing;
@@ -151,6 +154,7 @@ const SayingHelloSubLink = styled.a`
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+    color: white !important;
 
     .underbar{
       width: 0;
