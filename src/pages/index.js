@@ -1,9 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Wave from '../components/wave'
-import styled from 'styled-components'
 import HomepageBanner from '../components/HomepageBanner'
 import BrandsComponent from '../components/BrandsComponent'
 import DesignsComponent from '../components/DesignsComponent'

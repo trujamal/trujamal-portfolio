@@ -9,6 +9,13 @@ body {
 
 }
 
+::selection {
+  background: #F0F0F0; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #F0F0F0; /* Gecko Browsers */
+}
+
 a {
   color: #1F1F1F;
   text-decoration: none;

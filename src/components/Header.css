@@ -4,12 +4,10 @@
 .Header {
     padding-top: 2vh;
     width: 100%;
-    position: absolute;
+    position: relative;
     z-index: 10;
     animation: FadeIn 1s 0s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     display: block;
-    color: #1A1B1C;
-    background: #FFF;
     font-weight: 400;
     letter-spacing: -.2px;
 }
@@ -25,9 +23,9 @@
 	float: left;
     width: 208px;
     display: block;
-    color: #1A1B1C;
     font-size: 16px;
     font-weight: 300;
+    color: #1A1B1C;
     letter-spacing: -.2px;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;

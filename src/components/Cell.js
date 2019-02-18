@@ -13,12 +13,6 @@ const CellImage = styled.span`
     content: url(${props => props.image});
 `
 
-const CellTitle = styled.div`
-	color: black;
-	font-size: 24px;
-	padding: 30px 0;
-`
-
 const Cell = props => (
 	<CellGroup> 
 		<CellImage image={props.image}></CellImage>  

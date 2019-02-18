@@ -20,7 +20,6 @@ const Social = styled.div`
     float: right;
     height: 24px;
     color: #1A1B1C;
-    background: #FFF;
     font-weight: 400;
     letter-spacing: -.2px;
     -moz-osx-font-smoothing:
