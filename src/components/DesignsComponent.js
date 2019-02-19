@@ -18,12 +18,21 @@ const DesignContainerGroup = styled.div`
     column-gap: 3%;
  	padding: 20px;
 
+ 	@media (max-width: 1024px) {
+        column-count 1;
+        column-gap: 5%;
+    }
+
 `
 
 const DesignCard = styled.div`
     margin-bottom: 160px;
     position: relative;
     float: left;
+
+    @media (max-width: 1024px) {
+    	float: none;
+    }
 
 `
 
@@ -35,6 +44,12 @@ const DesignCardImage = styled.span`
     border: 1px solid #fff;
     content: url(${props => props.image});
 
+
+
+ 	@media (max-width: 1366px) {
+		width: 100%;
+		height: 74%;
+    }
 `
 
 
