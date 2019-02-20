@@ -31,6 +31,11 @@
     text-rendering: optimizeLegibility;
 }
 
+@media screen and (max-height: 450px) {
+    .titleOfMe {
+    display: none;
+    }
+}
 
 .titleOfMe {
 	font-family: 'Lato', sans-serif;
@@ -46,9 +51,4 @@
 	text-align: center;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-
-    @media (max-width: 415px) {
-        visibility: hidden;
-        font-size: 5px;
-    }
 }
