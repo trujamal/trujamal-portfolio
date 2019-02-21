@@ -31,12 +31,6 @@
     text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-height: 450px) {
-    .titleOfMe {
-    display: none;
-    }
-}
-
 .titleOfMe {
 	font-family: 'Lato', sans-serif;
 	position: absolute;
@@ -45,10 +39,16 @@
 	transform: translate(-50%, -50%);
 	width: 20%;
 	cursor: default;
-	display: block;
 	font-size: 16px;
 	font-weight: 400;
 	text-align: center;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width: 450px) {
+    .titleOfMe {
+    display: none;
+    }
+}
+
