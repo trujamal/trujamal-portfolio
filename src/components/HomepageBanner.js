@@ -5,7 +5,7 @@ const HpbGroup = styled.div`
 	padding: 320px 80px 240px;
 	display: block;
 	color:FFFF;
-	@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');	
+	@import url('//fonts.googleapis.com/css?family=Lato:100,300,400,700');	
 	font-family: 'Lato', sans-serif;
 `
 const HpbContainer = styled.div`

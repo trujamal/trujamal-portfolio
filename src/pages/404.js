@@ -5,13 +5,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Container = styled.div`
-    @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+    @import url('//fonts.googleapis.com/css?family=Lato:100,300,400,700');
     margin-top: -5vw;
     z-index: 1;
 	height: 110vh;
 	background-image: url("//cdn.dribbble.com/users/99875/screenshots/2740042/running_800x600.gif");
-	background-position: right;
-	background-size: contain;
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
 
 	@media (max-width: 1200px) {
@@ -71,14 +71,14 @@ const TextContainer = styled.div`
 `
 
 const HeaderCont = styled.h1`
-	font-size: 100px;font-family: Lato, sans-serif;font-weight: bold;color: rgb(0,0,0);
+	font-size: 100px;font-family: Lato, sans-serif;font-weight: bold;color: #E6EDF1;
 `
 const MaxText = styled.p`
-	font-size: 52px;font-family: Lato, sans-serif;font-weight: 200;color: #000000;
+	font-size: 52px;font-family: Lato, sans-serif;font-weight: 200;color: #E6EDF1;
 `
 
 const SubText = styled.p`
-	max-width: 28.125em;font-size: 18px;margin-bottom: 22.5px;padding: 0;font-family: Lato, sans-serif;font-style: inherit;vertical-align: baseline;border: 0;margin: 0 0 6px;color: #000000;letter-spacing: .025em;line-height: 1.55556;font-weight: 200;
+	max-width: 28.125em;font-size: 18px;margin-bottom: 22.5px;padding: 0;font-family: Lato, sans-serif;font-style: inherit;vertical-align: baseline;border: 0;margin: 0 0 6px;color: #E6EDF1;letter-spacing: .025em;line-height: 1.55556;font-weight: 500;
 `
 
 const StyledLink = styled(Link)`
