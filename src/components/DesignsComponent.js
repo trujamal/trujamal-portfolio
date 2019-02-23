@@ -98,3 +98,6 @@ const DesignsComponent = () => (
 
 export default DesignsComponent
 
+// Image 
+// Text
+// Year
