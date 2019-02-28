@@ -4,17 +4,19 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HomepageBanner from '../components/HomepageBanner'
 import OnboardingComp from '../components/Onboarding'
-
+import AboutInfoComponent from '../components/AboutInfoComponent'
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About me" />
-     <HomepageBanner 
-      title="About" 
-      text="Looking under the hood" 
-    />
-    <OnboardingComp />
+    <AboutInfoComponent />
   </Layout>
 )
 
 export default AboutPage
+
+    //  <HomepageBanner 
+    //   title="About" 
+    //   text="Looking under the hood" 
+    // />
+        // <OnboardingComp />
