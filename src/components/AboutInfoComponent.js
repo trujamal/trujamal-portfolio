@@ -63,14 +63,3 @@ const AboutInfoComponent = () => (
 )
 
 export default AboutInfoComponent
-
-
-//Brand Experience
-
-//Accenture, Alstom, Amtico, Baxi, Detroit Electric, Jaguar Land Rover, Lloyds TSB, Massey Ferguson, NFU Mutual, Notarize, TNT, TRW, Walmart, WeChat, Whitbread and many more.
-
-
-//Core Skillset
-
-//Art Direction, Illustration, Mobile App Design, Web App Design, VR Design + Prototyping, 3D Modelling + Animation, Photography, Front-end Web Development.
-

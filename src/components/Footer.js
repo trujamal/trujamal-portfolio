@@ -8,7 +8,7 @@ const FooterGroup = styled.div`
     height: 100vh;
     min-height: 480px;
     position: relative;
-
+    clear: left;
 `
 const FooterContainer = styled.div`
     margin: 0 auto;
