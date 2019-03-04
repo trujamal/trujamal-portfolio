@@ -19,7 +19,7 @@ const DesignContainerGroup = styled.div`
  	padding: 20px;
 
  	@media (max-width: 1024px) {
-        column-count 1;
+        column-count: 1;
         column-gap: 5%;
     }
 

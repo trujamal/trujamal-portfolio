@@ -49,7 +49,7 @@ const LinkGroupReference = styled.a`
 
     float: right;
     color: #fff;
-    padding-right: 20px
+    padding-right: 20px;
 
     a:hover {
         background: url(images/top.svg) right 6px no-repeat
@@ -80,14 +80,13 @@ const SayingHello = styled.a`
     cursor:grab;
     color: white !important;
 
-    :first {
-      color: white
+    a:first {
+      color: white;
     }
 
     a:hover {
         cursor:grabbing;
     }
-}
 `
 
 const Sayingspan = styled.span`
@@ -124,13 +123,12 @@ const Sayingspan = styled.span`
   100% {transform: rotate(0deg);}
 }
 
-
 `
 
 const SayingHelloSubText = styled.p`
     @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');    font-size: 28px;
     font-family: 'Lato', sans-serif;
-    cursor: default;}
+    cursor: default;
     font-weight: 400;
     font-size: 18px;
     color: #757B7F;
@@ -160,7 +158,6 @@ const SayingHelloSubLink = styled.a`
       width: 0;
       height: 5px;
       background: rgba(100,100,200,0);
-      //left: -50px;
       top: 20px;
       position: relative;
       -webkit-transition: 0.5s ease;

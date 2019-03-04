@@ -6,10 +6,10 @@ const Container = styled.div`
     box-sizing: border-box;
     display: block;
     margin-top: -5vh;
-    height: auto;
+    height: auto; 
     padding: 150px 80px 0;
-    background-size: cover;
-    background: url('//images.unsplash.com/photo-1551195441-713ee66a2379?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80') center center fixed no-repeat;
+    background-size: contain;
+    background: url('https://cl.ly/f4f37efc4e0f/faisal-latif-713461-unsplash.jpg') center center fixed no-repeat;
 `
 
 const InfoGroup = styled.div`
