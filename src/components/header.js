@@ -22,7 +22,6 @@ const Social = styled.div`
     color: #1A1B1C;
     font-weight: 400;
     letter-spacing: -.2px;
-    -moz-osx-font-smoothing:
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 `

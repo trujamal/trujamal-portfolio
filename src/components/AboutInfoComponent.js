@@ -7,9 +7,9 @@ const Container = styled.div`
     display: block;
     margin-top: -5vh;
     height: auto; 
-    padding: 150px 80px 0;
+    padding: 250px 80px 0;
     background-size: contain;
-    background: url('https://cl.ly/f4f37efc4e0f/faisal-latif-713461-unsplash.jpg') center center fixed no-repeat;
+    background: url('//cl.ly/f4f37efc4e0f/faisal-latif-713461-unsplash.jpg') center center fixed no-repeat;
 `
 
 const InfoGroup = styled.div`
