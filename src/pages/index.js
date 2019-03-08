@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import HomepageBanner from '../components/HomepageBanner'
 import BrandsComponent from '../components/BrandsComponent'
 import DesignsComponent from '../components/DesignsComponent'
+import ProjectComponent from '../components/ProjectsComponent'
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
       text="Co-founder and pusher of pixels at, Veve since 2015" 
     />
     <DesignsComponent />
+    <ProjectComponent />
     <BrandsComponent />
   </Layout>
 )

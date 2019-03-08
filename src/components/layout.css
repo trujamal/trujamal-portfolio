@@ -26,6 +26,7 @@ a, a:visited, a:active {
   color: #1A1B1C;
   position: relative
 }
+
 a:before {
   content: "";
   position: absolute;
@@ -38,10 +39,12 @@ a:before {
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
 }
+
 a:hover:before {
   visibility: visible;
   width: 100%
 }
+
 
 .active:before {
   width: 100%;

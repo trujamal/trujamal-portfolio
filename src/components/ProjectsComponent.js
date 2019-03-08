@@ -1,22 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
-import designdata from '../../json_data/designdata.json'
+import projectsdata from '../../json_data/projectsdata.json'
 
 const DesignContainer = styled.div`
-	max-width: 1200px;
+    max-width: 1200px;
     padding: 0 80px;
     animation: FadeInUp 1s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     display: block;
     @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');	
 	font-family: 'Lato', sans-serif;
 	margin: 0 auto;
-
 `
 
 const DesignContainerGroup = styled.div`
     column-count: 2;
     column-gap: 3%;
- 	padding: 20px;
+    padding: 0px 20px;
 
  	@media (max-width: 1024px) {
         column-count: 1;
@@ -25,10 +24,33 @@ const DesignContainerGroup = styled.div`
 
 `
 
-const DesignCard = styled.div`
-    margin-bottom: 160px;
+const DesignCard = styled.a`
+    margin-bottom: 100px;
     position: relative;
-    float: left;
+
+    display: inline-block; width: 100%;
+    transition: all 0.3s ease;
+    
+    &:hover:before {
+    visibility: hidden;
+    width: 100%
+    }
+
+    &:before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: #1A1B1C;
+    visibility: hidden;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    }
+
+    
+    text-decoration: none !important;
 
     @media (max-width: 1024px) {
     	float: none;
@@ -54,13 +76,13 @@ const DesignCardImage = styled.span`
 
 
 const DesignCardInfo = styled.div`
-    padding: 24px 0 0;
 
 
 	p {
     color: #757B80;
     max-width: 480px;
-    margin-top: 16px;
+    font-size: 12px;
+    margin-top: 0px;
     padding-right: 40px;
     margin: 0;
 	}
@@ -74,21 +96,20 @@ const DesignCardInfo = styled.div`
 
 `
 
-
-const DesignsComponent = () => (
+const ProjectComponent = () => (
 	<DesignContainer>
 		<DesignContainerGroup> 
-			{designdata.cells.map(cell => (
-				<DesignCard>
+			{projectsdata.cells.map(cell => (
+				<DesignCard href={cell.link}>
 					<DesignCardImage 
 						image={cell.image}
 					/>
 					<DesignCardInfo 
-						title={cell.title}
-						sub_text={cell.sub_text}
+						project={cell.project}
+						year={cell.year}
 					>
-						<h1>{cell.title}</h1>
-						<p>{cell.sub_text}</p>
+						<h1>{cell.project}</h1>
+						<p>{cell.year}</p>
 					</DesignCardInfo>
 				</DesignCard>
 				))} 
@@ -96,5 +117,9 @@ const DesignsComponent = () => (
 	</DesignContainer>
 )
 
-export default DesignsComponent
+export default ProjectComponent
 
+// project 
+// year
+// link
+// image

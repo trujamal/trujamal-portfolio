@@ -1,0 +1,70 @@
+{
+    "cells": [
+        {
+            "project": "Veve",
+            "year": "2015-2019",
+            "link": "//veveusa.com",
+            "image": "//cdn.dribbble.com/users/1769954/screenshots/6065346/toucan.png"
+        },
+        {
+            "project": "Brainstorm",
+            "year": "2015",
+            "link": "//itunes.apple.com/ca/app/brainstorm-by-veve/id1105199000",
+            "image": "//is4-ssl.mzstatic.com/image/thumb/Purple60/v4/dc/f0/ce/dcf0ce86-36d6-fecc-0e08-9aeffbd86eb3/mzl.dvgzkaql.jpg/1200x630wa.png"
+        },
+        {
+            "project": "YC",
+            "year": "2016",
+            "link": "//itunes.apple.com/ca/app/yc/id1135347962",
+            "image": "//is2-ssl.mzstatic.com/image/thumb/Purple62/v4/62/14/b2/6214b25c-3f2a-136b-4d24-9737a10a9f21/pr_source.jpg/1200x630wa.jpg"
+        },
+        {
+            "project": "Feed",
+            "year": "2016",
+            "link": "//veveusa.com",
+            "image": "//cdn.dribbble.com/users/1123328/screenshots/5191264/photo-feed-mark-maynard_2x.jpg"
+        },
+        {
+            "project": "Smart-Food Hackathon",
+            "year": "2018",
+            "link": "//github.com/trujamal/Smart-Food-Hackathon",
+            "image": "//cdn.dribbble.com/users/1230681/screenshots/5679637/dustbowl_dribbble.jpg"
+        },
+        {
+            "project": "Angel Hack",
+            "year": "2018",           
+            "link": "//github.com/angelhack-livit",
+            "image": "//pbs.twimg.com/profile_images/899773129412587520/IH7_EA3E_400x400.jpg"
+        },
+        {
+            "project": "Hackrice 8",
+            "year": "2018",
+            "link": "//github.com/Helios-AR",
+            "image": "//hack.rice.edu/static/og.png"
+        },
+        {
+            "project": "Clicktogether",
+            "year": "2018",
+            "link": "//www.clicktogether.app",
+            "image": "//cl.ly/4e2e12c161a5/Web_Logo_blk.svg"
+        },
+        {
+            "project": "Greg Lakomski",
+            "year": "2018",
+            "link": "//userweb.cs.txstate.edu/~gl1082/",
+            "image": "//cl.ly/5c60282b3dc4/Image%202019-03-08%20at%203.24.13%20AM.png"
+        },
+        {
+            "project": "Hack UTD",
+            "year": "2019",
+            "link": "//github.com/hack-utd",
+            "image": "//cdn.dribbble.com/users/1055247/screenshots/4914713/appartment_rental.png"
+        },
+        {
+            "project": "Ailze",
+            "year": "2019",
+            "link": "//veveusa.com",
+            "image": "//cdn.dribbble.com/users/1401165/screenshots/4776034/attachments/1074736/background.png"
+        }
+    ]
+}
