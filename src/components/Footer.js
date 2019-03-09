@@ -161,6 +161,7 @@ const SayingHelloSubLink = styled.a`
       top: 20px;
       position: relative;
       -webkit-transition: 0.5s ease;
+      transition: 0.5s ease;
     }
 
     a::before {

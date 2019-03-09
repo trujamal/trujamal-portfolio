@@ -7,6 +7,7 @@ import AboutInfoComponent from '../components/AboutInfoComponent'
 import AboutOther from '../components/AboutOther'
 import HomepageBanner from '../components/HomepageBanner'
 
+
 const ImageContainer = styled.div`
     overflow: hidden;
     margin-top: 53px;
@@ -21,7 +22,7 @@ const ImageGroupContainer = styled.div`
   width: 100%;
   height: 80vh;
   margin-top: 0px;
-  background-image: url('//cl.ly/a45a0c24e5ed/IMG_0091.JPG');
+  background-image: url('../images/aboutpage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
