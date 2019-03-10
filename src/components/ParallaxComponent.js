@@ -1,21 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Paralax = styled.div`
+const Parallax = styled.div`
   content: url(${props => props.image});
 
   /* Set a specific height */
   height: 110vh; 
-
+  margin: 0 auto;
+  width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  object-fit: cover;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 `
 
 const ParallaxComponent = props => (
-	<parallax image={props.image}/>
+	<Parallax image={props.image}/>
 )
 
 
