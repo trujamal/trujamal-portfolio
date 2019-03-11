@@ -1,6 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
 import projectsdata from '../../json_data/projectsdata.json'
+import styled, { keyframes } from "styled-components"
+
 
 const DesignContainer = styled.div`
     max-width: 1200px;
@@ -10,6 +11,18 @@ const DesignContainer = styled.div`
     @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');	
 	font-family: 'Lato', sans-serif;
 	margin: 0 auto;
+`
+const designCardAnimation = keyframes`
+  from {
+     opacity: 1;
+     overflow: hidden;
+     transform: scale(1.0,1.0);
+   }
+   to {
+     opacity: 1;
+     overflow: hidden;
+     transform: scale(1.05,1.05);
+   }
 `
 
 const DesignContainerGroup = styled.div`
@@ -27,24 +40,23 @@ const DesignContainerGroup = styled.div`
 const DesignCard = styled.a`
     margin-bottom: 100px;
     position: relative;
+	transition: 0.8s cubic-bezier(0.2,0.8,0.2,1);
 
+    overflow: hidden;
     display: inline-block; width: 100%;
-    transition: all 0.3s ease;
-    
+
     &:hover:before {
     visibility: hidden;
     width: 100%
     }
 
     &:before {
-    content: "";
     position: absolute;
     width: 0%;
     height: 1px;
     bottom: -2px;
     left: 0;
     background-color: #1A1B1C;
-    visibility: hidden;
     -webkit-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;
     }
@@ -65,8 +77,12 @@ const DesignCardImage = styled.span`
     display: block;
     border: 1px solid #fff;
     content: url(${props => props.image});
+    transition: all 0.3s ease;
 
-
+    &:hover {
+        overflow: hidden;
+        animation: ${designCardAnimation} 1s 0.2s forwards cubic-bezier(0.2,0.8,0.2,1);
+    }
 
  	@media (max-width: 1366px) {
 		width: 100%;
