@@ -1,12 +1,7 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://wwww.trujamal.com">
-    <img alt="Truajamal" src="https://avatars0.githubusercontent.com/u/16698402?s=460&v=4" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Trujamal Portfolio
-</h1>
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftrujamal%2Ftrujamal-portfolio.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftrujamal%2Ftrujamal-portfolio?ref=badge_shield)
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/flashy-tabbar/master/LICENSE)
+[![Logo](https://cl.ly/14997802e39b/Image%202019-02-26%20at%202.48.20%20AM.png)](https://trujamal.com)
+
 
 Hello and welcome to my Portfolio, to get to know me a little here is a short summary about what I do, and what this portfolio means to me.
 
