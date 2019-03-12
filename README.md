@@ -1,5 +1,6 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftrujamal%2Ftrujamal-portfolio.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftrujamal%2Ftrujamal-portfolio?ref=badge_shield)
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/flashy-tabbar/master/LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b736d869-fdc2-4a2d-aa70-a9ffca9d6e02/deploy-status)](https://app.netlify.com/sites/trujamal/deploys)
 [![Logo](https://cl.ly/14997802e39b/Image%202019-02-26%20at%202.48.20%20AM.png)](https://trujamal.com)
 
 
