@@ -17,7 +17,7 @@
     "gatsby-plugin-styled-components": "^3.1.6",
     "gatsby-remark-copy-linked-files": "^2.1.20",
     "gatsby-remark-images": "^3.1.23",
-    "gatsby-source-contentful": "^2.1.40",
+    "gatsby-source-contentful": "2.1.40",
     "gatsby-source-filesystem": "^2.1.26",
     "gatsby-transformer-sharp": "^2.2.16",
     "graphql": "^14.5.7",
