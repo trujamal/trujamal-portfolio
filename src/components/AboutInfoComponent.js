@@ -41,7 +41,7 @@ const AboutInfoComponent = () => (
             <WelcomeHeader>I love nurturing great ideas into beautiful, functional, and profitable digital products. For over 5 years I’ve had the pleasure to work with agencies, start-ups and other companies across the globe on a wide range of projects — from the mobile UI/UX for an restaurant reservation system, to App Store featured mobile apps. Most recently I have been making great strides in building my personal startup <EmbededLink href="https://veveusa.com">Veve</EmbededLink> with currently 15+ employees.</WelcomeHeader>
             <WelcomeHeader>In 2018, I explored the Hackathon scene in which I personally participated in 4 different hackathon's over the year exploring how each and every one interacts. With this knowledge I'm planning on introducing some of the concepts I learned into Texas State.</WelcomeHeader>
 			<WelcomeHeader>Alongside design and being student, I like to spend my time travelling, taking photos, creating portraits to photograph, and jamming to EDM.</WelcomeHeader>
-			<WelcomeHeader>Have a good one <span role="img">😘</span>. If you want to send me a <EmbededLink href="mailto:me@trujamal.com?subject=Hi%20Jamal!%20%E2%9C%8B">shout!</EmbededLink></WelcomeHeader>
+			<WelcomeHeader>Have a good one <span role="img" aria-label="heart">😘</span>. If you want to send me a <EmbededLink href="mailto:me@trujamal.com?subject=Hi%20Jamal!%20%E2%9C%8B">shout!</EmbededLink></WelcomeHeader>
 		</InfoGroup>
 	</Container>
 )
