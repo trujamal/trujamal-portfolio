@@ -11,7 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HomepageBanner 
       title="Developer for mobile, web and design products." 
-      text="Co-founder and pusher of pixels at, Veve since 2015" 
+      text="Co-founder and pusher of pixels at, Minuteboo since 2015" 
     />
     <DesignsComponent />
     <ProjectComponent />

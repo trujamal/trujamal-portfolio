@@ -3,10 +3,11 @@ module.exports = {
     title: `trujamal`,
     description: `Hello there I'm a multidisciplinary designer and full stack developer, that's currently working on crafting responsive web user interfaces, and mobile applications.`,
     author: `@trujamal`,
-    keywords: `Jamal, jamal rasool, trujamal, veve, veveusa,veve-llc, Jamal K Rasool, portfoliom sketch, iOS Developer, Full Stack developer, web developer, professional, jamal, jamal rasool`
+    keywords: `Jamal, jamal rasool, trujamal, veve, minuteboo,veve-llc, Jamal K Rasool, portfoliom sketch, iOS Developer, Full Stack developer, web developer, professional, jamal, jamal rasool`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -14,15 +15,24 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-remark-copy-linked-files`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /images\/.*\.svg$/
+        }
+      }
+    },
     {
       resolve: `gatsby-remark-images`,
       options: {
         maxWidth: 1080,
       },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,

@@ -17,7 +17,7 @@ const Layout = ({ children }) => (
             keywords
           }
         }
-        allContentfulLink(sort: {fields: [createdAt], order: ASC}) {
+        allContentfulLink(sort: {createdAt: ASC}) {
           edges {
             node{
               title

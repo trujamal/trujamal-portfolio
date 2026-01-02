@@ -52,7 +52,7 @@ const LinkGroupReference = styled.a`
     padding-right: 20px;
 
     a:hover {
-        background: url(images/top.svg) right 6px no-repeat
+        background: url(/top.svg) right 6px no-repeat
     }
 
 
@@ -199,9 +199,9 @@ const Footer = () => (
                     <SayingHello href="mailto:me@trujamal.com?subject=Hello 🤙">
                     Say Hello <Sayingspan><Emoji symbol="🤙"/></Sayingspan>
                     </SayingHello>
-                    <SayingHelloSubText>For work enquires head over to <SayingHelloSubLink href="https://veveusa.com"> Veve.</SayingHelloSubLink>.</SayingHelloSubText>
+                    <SayingHelloSubText>For work enquires head over to <SayingHelloSubLink href="https://minuteboo.com"> Minuteboo.</SayingHelloSubLink>.</SayingHelloSubText>
                 </Saying>
-            	<LinkGroup>© 2019 Jamal Rasool<LinkGroupReference class="top" href="#top">Top</LinkGroupReference></LinkGroup>
+            	<LinkGroup>© {new Date().getFullYear()} Jamal Rasool<LinkGroupReference class="top" href="#top">Top</LinkGroupReference></LinkGroup>
             </FooterContainer>
         </FooterGroup>
 )

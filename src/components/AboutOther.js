@@ -38,7 +38,7 @@ const AboutOther = () => (
         <ContainerGroup>
             <TextWrapper>
                 <AboutHeader>Brand Experience.</AboutHeader>
-                <AboutText>Bestbuy, Veve, Lookin Good, Brix + Brine, Commuter, Ailez, Agape Bengals, American Airlines, TRW, Clicktogether, Experian, Whitbread and many more.</AboutText>
+                <AboutText>Bestbuy, Minuteboo, Lookin Good, Brix + Brine, Commuter, Ailez, Agape Bengals, American Airlines, TRW, Clicktogether, Experian, Whitbread and many more.</AboutText>
             </TextWrapper>
             <TextWrapper>
                 <AboutHeader>Core Skillset.</AboutHeader>

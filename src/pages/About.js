@@ -13,7 +13,7 @@ const AboutPage = () => (
     <SEO title="About me" />
     <HomepageBanner 
       title="Welcome in, my name is Jamal and this is my story." 
-      text="I'm the co-founder of the startup Veve, specialising in development for web, mobile and design products." 
+      text="I'm the co-founder of the startup Minuteboo, specialising in development for web, mobile and design products." 
     />
     <ParallaxComponent image={Me}/>
     <AboutInfoComponent />

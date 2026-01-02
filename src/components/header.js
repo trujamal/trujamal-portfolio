@@ -3,6 +3,9 @@ import PropTypes from "prop-types"
 import React from "react"
 import './Header.css'
 import styled from 'styled-components'
+import SoundcloudIcon from '../images/icons/icons8-soundcloudblk.svg'
+import GithubIcon from '../images/icons/icons8-octocat.svg'
+import InstagramIcon from '../images/icons/icons8-instagram.svg'
 
 const StyledLink = styled(Link)`
 	font-family: 'Lato', sans-serif;
@@ -28,6 +31,8 @@ const Social = styled.div`
 
 const Icons = styled.a`
 	margin-left: 16px;
+	height: 25px;
+	width: 25px;
 	padding: 2px;
     display: block;
     float: right;
@@ -41,13 +46,6 @@ const Icons = styled.a`
     }
 `
 
-const IconsImage = styled.span`
-	height:25px;
-	width:25px;
-	content: url(${props => props.image});
-`
-
-
 class Header extends React.Component {
 	render() {
 		return(
@@ -60,9 +58,9 @@ class Header extends React.Component {
 			 			<StyledLink to="/About">About</StyledLink>
 		 			</div>
 		 			<Social>
-		 				<Icons href="//soundcloud.com/trujamal"><IconsImage image={require('../images/icons/icons8-soundcloudblk.svg')}/></Icons>
-		 				<Icons href="//github.com/trujamal"><IconsImage image={require('../images/icons/icons8-octocat.svg')}/></Icons>
-		 				<Icons href="//www.instagram.com/trujamal/"><IconsImage image={require('../images/icons/icons8-instagram.svg')}/></Icons>
+		 				<Icons href="//soundcloud.com/trujamal"><SoundcloudIcon /></Icons>
+		 				<Icons href="//github.com/trujamal"><GithubIcon /></Icons>
+		 				<Icons href="//www.instagram.com/trujamal/"><InstagramIcon /></Icons>
 		 			</Social>
 		 		</div>
 		 	</div>
