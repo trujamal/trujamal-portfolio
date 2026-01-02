@@ -48,8 +48,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-contentful',
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID || 's907tzls2pdt',
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN || '337570188abd667a42a057300207e42a757f7f0c94a1a6063e82b6e60138804a'
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
       }
     },
     // gatsby-plugin-offline: Enables Progressive Web App + Offline functionality
