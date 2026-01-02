@@ -1,9 +1,8 @@
 [build]
-  command = "npm run build"
+  command = "bun run build"
   publish = "public"
   functions = '././functions'
 
 [build.environment]
   NODE_VERSION = "22"
-  YARN_VERSION = "1.22.4"
-  NPM_VERSION = "10"
+  BUN_VERSION = "latest"
