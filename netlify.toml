@@ -1,5 +1,8 @@
 [build]
-functions = '././functions'
+  command = "npm run build"
+  publish = "public"
+  functions = '././functions'
+
 [build.environment]
   NODE_VERSION = "22"
   YARN_VERSION = "1.22.4"
