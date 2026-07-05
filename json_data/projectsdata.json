@@ -2,120 +2,140 @@
     "cells": [
         {
             "project": "Kontrakk",
+            "tag": "Brand & Web App",
             "year": "2026",
             "link": "https://kontrakk.com",
             "image": "/images/projects/kontrakk-hero.png"
         },
         {
             "project": "Avyo",
+            "tag": "Product Design",
             "year": "2026",
             "link": "https://avyo.io",
             "image": "/images/projects/avyo-hero.jpg"
         },
         {
             "project": "RMR Halal",
+            "tag": "Web Development",
             "year": "2025",
             "link": "https://rmrhalal.com",
             "image": "/images/projects/rmrHalal-hero.svg"
         },
         {
             "project": "Derouin Delights",
+            "tag": "Brand Identity",
             "year": "2025",
             "link": "https://derouindelights.com",
             "image": "/images/projects/derouinDelights-hero.jpg"
         },
         {
             "project": "Anola",
+            "tag": "Brand Identity",
             "year": "2023",
             "link": "https://minuteboo.com/work/anola",
             "image": "/images/projects/anola-hero.png"
         },
         {
             "project": "Tokins",
+            "tag": "Product Design",
             "year": "2022",
             "link": "https://minuteboo.com/work/tokins",
             "image": "/images/projects/tokins-hero.png"
         },
         {
             "project": "SmallBytes",
+            "tag": "Web Platform",
             "year": "2020",
             "link": "https://smallbytes.co",
             "image": "/images/projects/smallBytes-hero.png"
         },
         {
             "project": "Veve",
+            "tag": "Brand Identity",
             "year": "2019",
             "link": "https://minuteboo.com/work/veveUSA",
             "image": "/images/projects/veveUSA-hero.png"
         },
         {
             "project": "Crooked Pine",
+            "tag": "Brand & Web",
             "year": "2019",
             "link": "https://www.crookedpineogt.com",
             "image": "/images/projects/crookedPine-hero.png"
         },
         {
             "project": "Brix+Brine",
+            "tag": "Web Development",
             "year": "2019",
             "link": "https://www.brixbrine.com",
             "image": "/images/projects/brixBrine-hero.png"
         },
         {
             "project": "Click Together",
+            "tag": "Brand Identity",
             "year": "2018",
             "link": "https://minuteboo.com/work/clickTogether",
             "image": "/images/projects/clickTogether-hero.png"
         },
         {
             "project": "Minuteboo",
+            "tag": "Product & Brand",
             "year": "2015-2019",
             "link": "//minuteboo.com",
             "image": "/images/projects/minuteboo.png"
         },
         {
             "project": "Ailze",
+            "tag": "Product Design",
             "year": "2019",
             "link": "//minuteboo.com",
             "image": "/images/projects/ailze.png"
         },
         {
             "project": "Hack UTD",
+            "tag": "Hackathon",
             "year": "2019",
             "link": "//github.com/hack-utd",
             "image": "/images/projects/hack-utd.png"
         },
         {
             "project": "Hackrice 8",
+            "tag": "Hackathon",
             "year": "2018",
             "link": "//github.com/Helios-AR",
             "image": "/images/projects/hackrice-8.png"
         },
         {
             "project": "Smart-Food Hackathon",
+            "tag": "Hackathon",
             "year": "2018",
             "link": "//github.com/trujamal/Smart-Food-Hackathon",
             "image": "/images/projects/smart-food-hackathon.jpg"
         },
         {
             "project": "Greg Lakomski",
+            "tag": "Web Development",
             "year": "2018",
             "link": "https://web.archive.org/web/20191122004527/https://userweb.cs.txstate.edu/~gl1082/",
             "image": "/images/projects/greg-lakomski.png"
         },
         {
             "project": "YC",
+            "tag": "iOS Application",
             "year": "2016",
             "link": "//minuteboo.com",
             "image": "/images/projects/yc.jpg"
         },
         {
             "project": "Brainstorm",
+            "tag": "iOS Application",
             "year": "2015",
             "link": "//minuteboo.com",
             "image": "/images/projects/brainstorm.png"
         },
         {
             "project": "Feed",
+            "tag": "Product Design",
             "year": "2016",
             "link": "//minuteboo.com",
             "image": "/images/projects/feed.jpg"

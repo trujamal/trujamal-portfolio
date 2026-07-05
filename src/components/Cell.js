@@ -10,12 +10,12 @@ const CellImage = styled.span`
     height: auto;
     padding-bottom: 24px;
     display: block;
-    content: url(${props => props.image});
+    content: url(${props => props.$image});
 `
 
 const Cell = props => (
-	<CellGroup> 
-		<CellImage image={props.image}></CellImage>  
+	<CellGroup>
+		<CellImage $image={props.image}></CellImage>
 	</CellGroup>
 )
 

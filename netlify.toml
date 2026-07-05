@@ -6,3 +6,15 @@
 [build.environment]
   NODE_VERSION = "22"
   BUN_VERSION = "latest"
+
+# The pre-redesign About page lived at /About (capital A); the CDN is
+# case-sensitive, so old links need an explicit redirect.
+[[redirects]]
+  from = "/About"
+  to = "/about"
+  status = 301
+
+[[redirects]]
+  from = "/About/*"
+  to = "/about"
+  status = 301

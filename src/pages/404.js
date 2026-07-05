@@ -1,114 +1,93 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react"
 import { Link } from "gatsby"
-import Layout from "../components/layout"
+import styled from "styled-components"
+import GlassLayout from "../components/GlassLayout"
 import SEO from "../components/seo"
 
-const Container = styled.div`
-    @import url('//fonts.googleapis.com/css?family=Lato:100,300,400,700');
-    margin-top: -5vw;
-    z-index: 1;
-	height: 110vh;
-	background-image: url("/images/404-error.gif");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+const ink = "#0B0B0D"
 
-	@media (max-width: 1200px) {
-    margin-top: -20px;
-	}
-`
-
-const SubContainer = styled.div`
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-`
-
-const Row = styled.div`
-  display: -ms-flexbox;
+/* The original silly gif, self-hosted since the redesign */
+const Hero = styled.header`
+  min-height: 100vh;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(rgba(11, 11, 13, 0.35), rgba(11, 11, 13, 0.35)),
+    url("/images/404-error.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 `
 
-const Column = styled.div`
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	padding-left: 70px;
-	padding-right: 70px;
-	max-width: 1430px;
-	align-items: center;
-	display: flex;
-	position: relative;
-	min-height: 100vh;
-
-	@media (max-width:1200px) {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-	}
-
-	@media (max-width:768px) {
-	 -ms-flex: 0 0 100%;
-	flex: 0 0 100%;
-	max-width: 100%;
-	}
-
-
+const HeroInner = styled.div`
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 170px 22px 130px;
 `
 
-const TextContainer = styled.div`
-  position: relative;
-  z-index: 1;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  display: block;
+const Kicker = styled.p`
+  margin: 0 0 18px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #e6edf1;
 `
 
-const HeaderCont = styled.h1`
-	font-size: 100px;font-family: Lato, sans-serif;font-weight: bold;color: #E6EDF1;
-`
-const MaxText = styled.p`
-	font-size: 52px;font-family: Lato, sans-serif;font-weight: 200;color: #E6EDF1;
-`
-
-const SubText = styled.p`
-	max-width: 28.125em;font-size: 18px;margin-bottom: 22.5px;padding: 0;font-family: Lato, sans-serif;font-style: inherit;vertical-align: baseline;border: 0;margin: 0 0 6px;color: #E6EDF1;letter-spacing: .025em;line-height: 1.55556;font-weight: 500;
+const Headline = styled.h1`
+  margin: 0;
+  font-size: clamp(72px, 14vw, 160px);
+  line-height: 0.92;
+  letter-spacing: -0.045em;
+  font-weight: 700;
+  color: #e6edf1;
 `
 
-const StyledLink = styled(Link)`
-	color: #000;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+const Intro = styled.p`
+  margin: 26px 0 0;
+  max-width: 480px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #e6edf1;
 `
 
+const BackButton = styled(Link)`
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 34px;
+  width: fit-content;
+  background: #fff;
+  color: ${ink};
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 15px 28px;
+  border-radius: 100px;
+  transition: transform 0.15s;
+
+  &:hover,
+  &:focus-visible {
+    transform: scale(1.02);
+  }
+`
 
 const NotFoundPage = () => (
-  <Layout>
+  <GlassLayout pillHref="/#work" pillLabel="Available for work · view portfolio">
     <SEO title="How did you get here?" />
-    <div>
-		<Container>
-		    <SubContainer>
-		        <Row>
-		            <Column>
-		                <TextContainer>
-		                    <HeaderCont>404</HeaderCont>
-		                    <MaxText>No es bueno<br /></MaxText>
-		                    <SubText>You came here, looking for something, and all you get is this silly gif. Not good. Not good, at all.<br /></SubText>
-		                    <StyledLink to="/">Back to square one</StyledLink>
-						</TextContainer>
-		            </Column>
-		        </Row>
-		    </SubContainer>
-		</Container>
-    </div>
-  </Layout>
+    <Hero>
+      <HeroInner>
+        <Kicker>404</Kicker>
+        <Headline>No es bueno.</Headline>
+        <Intro>
+          You came here, looking for something, and all you get is this silly gif. Not good. Not
+          good, at all.
+        </Intro>
+        <BackButton to="/">Back to square one →</BackButton>
+      </HeroInner>
+    </Hero>
+  </GlassLayout>
 )
 
 export default NotFoundPage
-

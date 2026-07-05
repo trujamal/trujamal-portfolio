@@ -42,7 +42,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "node scripts/verify-data.mjs"
+    "test": "node scripts/verify-data.mjs",
+    "test:build": "node scripts/verify-build.mjs"
   },
   "repository": {
     "type": "git",

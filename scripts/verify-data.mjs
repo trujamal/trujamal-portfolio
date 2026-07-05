@@ -58,7 +58,7 @@ try {
     }
   }
   projects.forEach((cell, i) => {
-    for (const field of ["project", "year", "link"]) {
+    for (const field of ["project", "tag", "year", "link"]) {
       if (!cell[field]) errors.push(`projectsdata.json cells[${i}]: missing ${field}`);
     }
   });
