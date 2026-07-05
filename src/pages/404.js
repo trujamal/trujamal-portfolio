@@ -9,7 +9,7 @@ const Container = styled.div`
     margin-top: -5vw;
     z-index: 1;
 	height: 110vh;
-	background-image: url("//cdn.dribbble.com/users/99875/screenshots/2740042/running_800x600.gif");
+	background-image: url("/images/404-error.gif");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;

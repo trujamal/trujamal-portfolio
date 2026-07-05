@@ -1,22 +1,22 @@
 {
     "cells": [
         {
-            "image": "//cl.ly/c38205bd8679/bby@2x.png"
+            "image": "/images/brands/brands-1.png"
         },
         {
-			"image": "//cl.ly/bc9d3813d4df/Experian@2x.png"
-		},
-		{
-			"image": "//cl.ly/aa6bda5abc71/AA@2x.png"
-		},
-		{
-			"image": "//cl.ly/df5aee4fabb5/veve@2x.png"
-		},
-		{
-			"image": "//cl.ly/8efbdba94f2d/moon@2x.png"
-		},
-		{
-			"image": "//cl.ly/adfd6410fd8c/flip@2x.png"
-		}
+            "image": "/images/brands/brands-2.png"
+        },
+        {
+            "image": "/images/brands/brands-3.png"
+        },
+        {
+            "image": "/images/brands/brands-4.png"
+        },
+        {
+            "image": "/images/brands/brands-5.png"
+        },
+        {
+            "image": "/images/brands/brands-6.png"
+        }
     ]
 }
